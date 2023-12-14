@@ -12,13 +12,6 @@ body {
   position: relative;
 }
 
-.container {
-  width: 80%;
-  margin: 250px auto;
-
-  text-align: center;
-}
-
 .txt {
   font-size: 48px;
   visibility: hidden;
@@ -65,7 +58,7 @@ body {
 @keyframes fade-in {
   0% {
     visibility: visible;
-    font-size: 300px;
+    font-size: 5px;
     color: rgb(45, 168, 53);
   }
 
@@ -78,5 +71,7 @@ body {
   100% {
     visibility: visible;
     font-size: 56px;
+    color: orangered;
+    background-color: #d7cece;
   }
 }
