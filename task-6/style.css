@@ -1,0 +1,132 @@
+/* HOME PAGE CSS */
+
+/* HERO SECTION*/
+.hero {
+  border-radius: 40px;
+  background: url(images/img-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.offer {
+  width: 53rem;
+}
+
+.main-btn {
+  width: 200px;
+  padding: 2rem 7.8rem;
+  border-radius: 100px;
+}
+
+.main-btn-img {
+  transform: scale(0);
+  width: 0;
+  height: 20px;
+  transition: all 0.5s ease-in;
+}
+
+@media (hover: hover) {
+  .main-btn:hover .main-btn-img {
+    width: 20px;
+    height: 20px;
+    transform: scale(1);
+  }
+}
+
+/* FAVORITE COFFEE SECTION*/
+
+.arrow-btn-box {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  border: 1px solid #665f55;
+  transition: 0.8s;
+}
+
+@media (hover: hover) {
+  .arrow-btn-box:hover svg > path {
+    stroke: #e1d4c9;
+  }
+  .arrow-btn-box:hover {
+    background: #665f55;
+  }
+}
+
+.slider-content {
+  width: 48rem;
+}
+
+.slider-img {
+  width: 100%;
+}
+
+.control-line {
+  width: 40px;
+  height: 4px;
+  border-radius: 100px;
+}
+
+/* ABOUT SECTION */
+
+.about-images {
+  display: grid;
+  grid-template-columns: 66rem 66rem;
+  gap: 4rem;
+}
+
+.img-item {
+  border-radius: 20px;
+  object-fit: cover;
+  display: block;
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+
+@media (hover: hover) {
+  .img-item:hover {
+    transform: scale(1);
+  }
+}
+
+.img-box-home {
+  border-radius: 20px;
+}
+
+.img-1,
+.img-4 {
+  height: 590px;
+}
+.img-2,
+.img-3 {
+  height: 430px;
+}
+
+/* MOBILE APP SECTION */
+
+.download-btn {
+  width: 200px;
+  padding: 12px 20px;
+  border-radius: 100px;
+  border: 1px solid #665f55;
+
+  transition: 0.8s;
+}
+.download-btn svg > path {
+  transition: 0.8s;
+}
+
+@media (hover: hover) {
+  .download-btn:hover {
+    background: #665f55;
+    color: #e1d4c9;
+  }
+
+  .download-btn:hover svg > path {
+    fill: #e1d4c9;
+  }
+}
+
+.phone-img {
+  width: 63rem;
+}

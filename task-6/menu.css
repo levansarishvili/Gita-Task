@@ -1,0 +1,125 @@
+/* MENU PAGE CSS */
+
+/* Animation only for menu button on menu page nav bar */
+.hover-underline-animation-menu {
+  position: relative;
+}
+
+.hover-underline-animation-menu::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+
+  bottom: -5px;
+  left: 0;
+  background-color: #403f3d;
+  transform-origin: 50% 50%;
+  transition: transform 0.5s ease-out;
+}
+
+@media (hover: hover) {
+  .hover-underline-animation-menu:hover::after {
+    transform: scaleX(1);
+    transform-origin: 50% 50%;
+  }
+}
+
+/* MAIN SECTION */
+.header-container {
+  width: 80rem;
+  width: 100%;
+}
+
+.tab-item {
+  padding: 8px 16px 8px 8px;
+  border-radius: 100px;
+  transition: 0.8s;
+}
+
+.tab-icon {
+  width: 16px;
+  height: 24px;
+}
+.icon-box {
+  padding: 3px 7px;
+  border-radius: 100px;
+}
+
+.item-1 {
+  background: #665f55;
+  border: 1px solid #c1b6ad;
+}
+
+.item-1 p {
+  color: #e1d4c9;
+}
+
+.icon-box-1 {
+  background: #e1d4c9;
+}
+
+@media (hover: hover) {
+  .item-2:hover {
+    background: #665f55;
+    color: #e1d4c9;
+  }
+  .item-3:hover {
+    background: #665f55;
+    color: #e1d4c9;
+  }
+
+  .tab-item:hover .icon-box {
+    background: #e1d4c9;
+  }
+}
+
+.item-2,
+.item-3 {
+  background-color: #e1d4c9;
+  border: 1px solid #c1b6ad;
+  color: #403f3d;
+}
+
+.primary-header {
+  width: 59%;
+}
+
+/* COFFEE PRODUCTS */
+
+.product-item {
+  border: 1px solid #c1b6ad;
+  border-radius: 40px;
+  width: 310px;
+  height: 506px;
+}
+
+.product-img {
+  border-radius: 40px;
+  transform: scale(1.1);
+  transition: transform 0.5s;
+  display: block;
+}
+
+.product-desc {
+  flex: 1 0 0;
+}
+
+@media (hover: hover) {
+  .product-item:hover .product-img {
+    transform: scale(1);
+  }
+}
+
+.img-box {
+  overflow: hidden;
+  border-radius: 40px;
+}
+
+.refresh-btn {
+  display: none;
+  border-radius: 100px;
+  border: 1px solid var(--Border-Dark, #665f55);
+  width: 60px;
+  height: 60px;
+}

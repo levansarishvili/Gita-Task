@@ -1,0 +1,181 @@
+/* FOR RESPONSIVE DESIGN */
+
+/* <1440px screen size */
+@media (max-width: 1439px) {
+  /* Home Page */
+  .about-images {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .img-box-home {
+    max-width: 68.8rem;
+  }
+
+  .img-2,
+  .img-3 {
+    display: none;
+  }
+
+  .img-item {
+    transform: scale(1.06);
+  }
+
+  .col-1 {
+    gap: 0;
+  }
+  .col-2 {
+    gap: 0;
+  }
+
+  /* Menu Page */
+  .primary-header {
+    width: 70%;
+  }
+}
+
+/* <1280px screen size */
+@media (max-width: 1219px) {
+  /* Home Page */
+  .mobile-app {
+    flex-direction: column;
+  }
+
+  /* Menu Page */
+  .primary-header {
+    width: 90%;
+  }
+}
+
+/* <944px screen size */
+@media (max-width: 943px) {
+  /* Home Page */
+  .hero {
+    padding: 10rem 6rem;
+  }
+
+  /* Menu Page */
+  .primary-header {
+    width: 100%;
+  }
+
+  /* Both */
+  .footer {
+    flex-direction: column;
+    align-items: start;
+    padding: 10rem 6rem;
+  }
+}
+
+/* <864px screen size */
+@media (max-width: 863px) {
+  .footer-offer {
+    width: 56.8rem;
+  }
+}
+
+/* <768px screen size */
+@media (max-width: 768px) {
+  /* Home Page */
+
+  .buttons {
+    flex-direction: column;
+  }
+  .phone-img {
+    width: 34.8rem;
+  }
+  .offer {
+    width: 100%;
+  }
+
+  /* Menu Page */
+  .refresh-btn {
+    display: flex;
+    margin-bottom: 10rem;
+  }
+  .coffee-products {
+    margin-bottom: 0;
+  }
+
+  /* Both */
+  .nav-bar {
+    display: none;
+  }
+  .coffee {
+    display: none;
+  }
+  .burger-menu {
+    display: flex;
+  }
+  .footer-offer {
+    width: 51.6rem;
+    width: 100%;
+  }
+}
+
+/* <736px screen size */
+@media (max-width: 736px) {
+  /* Menu Page */
+  .arrow-btn-box {
+    display: none;
+  }
+  .slider-container {
+    justify-content: center;
+  }
+  /* Both */
+  .heading-1-font-mob {
+    font-size: 4.2rem;
+    line-height: 115%;
+  }
+  .heading-2-font-mob {
+    font-size: 3.2rem;
+  }
+}
+
+/* <660px screen size */
+@media (max-width: 660px) {
+  /* Home Page */
+  .hero {
+    padding: 6rem 1.6rem;
+  }
+  .offer {
+    width: 100%;
+  }
+
+  /* Menu Page */
+  .tabs {
+    gap: 0.8rem;
+  }
+}
+
+/* <544px size */
+@media (max-width: 544px) {
+  /* Home Page */
+  .container {
+    padding: 2rem 1.6rem 4rem 1.6rem;
+  }
+  .footer {
+    padding: 6rem 1.6rem;
+    gap: 4rem;
+  }
+  .footer-offer {
+    width: 51.6rem;
+    width: 100%;
+  }
+}
+
+/* <380px screen size */
+@media (max-width: 379px) {
+  /* Home Page */
+  .phone-img {
+    width: 100%;
+  }
+
+  /* Menu Page */
+  .tabs {
+    flex-direction: column;
+  }
+}
