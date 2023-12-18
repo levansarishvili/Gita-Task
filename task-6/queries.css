@@ -38,7 +38,7 @@
 }
 
 /* <1280px screen size */
-@media (max-width: 1219px) {
+@media (max-width: 1280px) {
   /* Home Page */
   .mobile-app {
     flex-direction: column;
@@ -51,7 +51,7 @@
 }
 
 /* <944px screen size */
-@media (max-width: 943px) {
+@media (max-width: 944px) {
   /* Home Page */
   .hero {
     padding: 10rem 6rem;
@@ -71,7 +71,7 @@
 }
 
 /* <864px screen size */
-@media (max-width: 863px) {
+@media (max-width: 864px) {
   .footer-offer {
     width: 56.8rem;
   }
@@ -168,7 +168,7 @@
 }
 
 /* <380px screen size */
-@media (max-width: 379px) {
+@media (max-width: 380px) {
   /* Home Page */
   .phone-img {
     width: 100%;
