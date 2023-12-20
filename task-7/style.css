@@ -1,0 +1,201 @@
+/* Header */
+.brand-logo {
+  width: 12.5rem;
+  height: 2.2rem;
+}
+
+.nav-items li {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.nav-items li a:link,
+.nav-items li a:hover,
+.nav-items li a:visited,
+.nav-items li a:active {
+  text-decoration: none;
+  color: #fff;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.5;
+}
+
+li.last-item {
+  display: inline-flex;
+  padding: 15px 36px 15px 35px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 30px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  background: rgba(3, 3, 4, 0.5);
+}
+
+li.last-item a:link,
+li.last-item a:hover,
+li.last-item a:visited,
+li.last-item a:active {
+  opacity: 0.8;
+  font-weight: 700;
+}
+
+/* Hero */
+.main-header {
+  max-width: 89.1rem;
+  color: #fff;
+  text-align: center;
+  font-family: Syne;
+  font-size: 7.2rem;
+  font-weight: 700;
+}
+
+.explore-btn {
+  border: none;
+  width: 24.2rem;
+  height: 6.5rem;
+  flex-shrink: 0;
+  border-radius: 32.5px;
+  background: #ff9142;
+  color: #f4f7fa;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 1.625px;
+  text-transform: uppercase;
+}
+
+/* Bio */
+.bio-header {
+  max-width: 51.6rem;
+  color: #fff;
+  font-family: Syne;
+  font-size: 5.6rem;
+  font-weight: 700;
+}
+
+.bio-txt {
+  max-width: 62.5rem;
+  color: #a8a8a8;
+  font-family: Rubik;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 154.5%;
+  letter-spacing: 0.99px;
+}
+
+.bio-btn {
+  border: none;
+  width: 28.8rem;
+  height: 5.9rem;
+  display: inline-flex;
+  padding: 2rem 5rem;
+  align-items: flex-start;
+  gap: 1rem;
+  border-radius: 47px;
+  background: #ff9142;
+  color: #fdfdfd;
+  font-family: Rubik;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+/* Highlight */
+.highlight-header {
+  color: #fff;
+  text-align: center;
+  font-family: Syne;
+  font-size: 6.4rem;
+  font-weight: 700;
+}
+
+.dark-btn {
+  border: none;
+  background: #1a1a1a;
+  width: 242px;
+  height: 65px;
+  border-radius: 32.5px;
+  border: 1px solid #ff9142;
+  color: #f4f7fa;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 1.625px;
+  text-transform: uppercase;
+}
+
+.project-desc {
+  color: #fff;
+  font-family: Syne;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+/* Testimonial */
+.testimonial-header {
+  max-width: 62.4rem;
+  color: #fff;
+  font-family: Syne;
+  font-size: 6.4rem;
+  font-weight: 700;
+}
+
+.testimonial-txt {
+  max-width: 87.8rem;
+  color: #949494;
+  font-family: Rubik;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.testimonial-author {
+  color: #fff;
+  font-family: Syne;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+/* Footer */
+.footer {
+  background: #131313;
+  padding: 10rem 5rem;
+}
+
+.orange-txt {
+  color: #ff9142;
+  text-align: center;
+  font-family: Syne;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.email {
+  color: #fff;
+  text-align: center;
+  font-family: Syne;
+  font-size: 6.4rem;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+.brand-logo-footer {
+  width: 241px;
+  height: 42px;
+}
+
+.address {
+  color: #fff;
+  font-family: Syne;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.soc-media {
+  color: #fff;
+  font-family: Syne;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
