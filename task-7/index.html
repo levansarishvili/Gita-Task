@@ -35,10 +35,16 @@
               alt="brand logo"
           /></a>
           <ul class="nav-items flex-row gap-44 align-center">
-            <li><a href="">Home</a></li>
-            <li><a href="">About me</a></li>
-            <li><a href="">My works</a></li>
-            <li class="last-item"><a href="">Contact</a></li>
+            <li class="hover-underline-animation"><a href="#">Home</a></li>
+            <li class="hover-underline-animation">
+              <a href="#bio">About me</a>
+            </li>
+            <li class="hover-underline-animation">
+              <a href="#project">My works</a>
+            </li>
+            <li class="last-item cursor-pointer">
+              <a href="#contact">Contact</a>
+            </li>
           </ul>
 
           <div class="burger"><img src="/assets/list.svg" alt="" /></div>
@@ -52,7 +58,10 @@
       </section>
 
       <!-- ================ Bio Section ================ -->
-      <section class="bio flex-row align-center justify-between gap-44 mb-200">
+      <section
+        class="bio flex-row align-center justify-between gap-44 mb-200"
+        id="bio"
+      >
         <div class="bio-txt-box flex-col gap-26">
           <h2 class="bio-header">Let’s get know about me closer</h2>
           <p class="bio-txt mb-50">
@@ -64,7 +73,7 @@
         </div>
         <div class="bio-img-box">
           <img
-            class="cursor-pointer w-full"
+            class="bio-img cursor-pointer w-full"
             src="/assets/Rectangle 361.png"
             alt=""
           />
@@ -72,7 +81,7 @@
       </section>
 
       <!-- ================ Project Section ================ -->
-      <section class="highlight flex-col align-center gap-60">
+      <section class="highlight flex-col align-center gap-60" id="project">
         <h2 class="highlight-header">My Projects Highlight</h2>
         <button class="dark-btn cursor-pointer">Explore More</button>
 
@@ -80,25 +89,49 @@
           class="projects-container flex-row flex-wrap justify-center gap-44 align-center"
         >
           <div class="project flex-col gap-26 mb-100">
-            <img class="cursor-pointer w-full" src="/assets/Img-1.png" alt="" />
+            <div class="project-img-box">
+              <img
+                class="project-img cursor-pointer w-full"
+                src="/assets/Img-1.png"
+                alt=""
+              />
+            </div>
             <div class="project-desc">
               <h3>Brand Journey Improvements</h3>
             </div>
           </div>
           <div class="project flex-col gap-26 mb-100">
-            <img class="cursor-pointer w-full" src="/assets/Img-2.png" alt="" />
+            <div class="project-img-box">
+              <img
+                class="project-img cursor-pointer w-full"
+                src="/assets/Img-2.png"
+                alt=""
+              />
+            </div>
             <div class="project-desc">
               <h3>Brand Grouping</h3>
             </div>
           </div>
           <div class="project flex-col gap-26 mb-100">
-            <img class="cursor-pointer w-full" src="/assets/Img-3.png" alt="" />
+            <div class="project-img-box">
+              <img
+                class="project-img cursor-pointer w-full"
+                src="/assets/Img-3.png"
+                alt=""
+              />
+            </div>
             <div class="project-desc">
               <h3>NFT Glimps</h3>
             </div>
           </div>
           <div class="project flex-col gap-26 mb-100">
-            <img class="cursor-pointer w-full" src="/assets/Img-4.png" alt="" />
+            <div class="project-img-box">
+              <img
+                class="project-img cursor-pointer w-full"
+                src="/assets/Img-4.png"
+                alt=""
+              />
+            </div>
             <div class="project-desc">
               <h3>Brand Suggestions</h3>
             </div>
@@ -128,7 +161,7 @@
     </div>
 
     <!-- ================ Footer Section ================ -->
-    <footer class="footer flex-col gap-26 align-center">
+    <footer class="footer flex-col gap-26 align-center" id="contact">
       <p class="orange-txt">Get in Touch With Us</p>
       <p class="email mb-100">info@aaronn.com</p>
       <div class="contact flex-row gap-100 justify-around w-full mb-50">

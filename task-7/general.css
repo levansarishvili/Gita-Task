@@ -26,6 +26,31 @@ body {
   padding: 3rem 10rem;
 }
 
+/* Animations */
+.hover-underline-animation {
+  position: relative;
+}
+
+.hover-underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+
+  bottom: -5px;
+  left: 0;
+  right: 50%;
+  background-color: #403f3d;
+  transform-origin: 50% 50%;
+  transition: transform 0.5s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: 50% 50%;
+}
+
 /* Typography */
 .heading-1-font-mob {
   font-size: 4.2rem;
