@@ -38,6 +38,10 @@
     gap: 5rem;
   }
 
+  .testimonial-container {
+    align-items: center;
+  }
+
   .bio-txt-box {
     align-items: center;
   }
