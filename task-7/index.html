@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="queries.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -39,6 +40,8 @@
             <li><a href="">My works</a></li>
             <li class="last-item"><a href="">Contact</a></li>
           </ul>
+
+          <div class="burger"><img src="/assets/list.svg" alt="" /></div>
         </nav>
       </header>
 
@@ -50,46 +53,52 @@
 
       <!-- ================ Bio Section ================ -->
       <section class="bio flex-row align-center justify-between gap-44 mb-200">
-        <div class="flex-col gap-26">
+        <div class="bio-txt-box flex-col gap-26">
           <h2 class="bio-header">Let’s get know about me closer</h2>
           <p class="bio-txt mb-50">
             Aaronn is a New York-based visual designer focusing on branding and
             visual identity. Her portfolio showcases her wide range of work,
             spanning books, posters and web design.
           </p>
-          <button class="bio-btn">Discover More About Me</button>
+          <button class="bio-btn cursor-pointer">Discover More About Me</button>
         </div>
-        <div><img src="/assets/Rectangle 361.png" alt="" /></div>
+        <div class="bio-img-box">
+          <img
+            class="cursor-pointer w-full"
+            src="/assets/Rectangle 361.png"
+            alt=""
+          />
+        </div>
       </section>
 
-      <!-- ================ Bio Section ================ -->
+      <!-- ================ Project Section ================ -->
       <section class="highlight flex-col align-center gap-60">
         <h2 class="highlight-header">My Projects Highlight</h2>
-        <button class="dark-btn">Explore More</button>
+        <button class="dark-btn cursor-pointer">Explore More</button>
 
         <div
           class="projects-container flex-row flex-wrap justify-center gap-44 align-center"
         >
           <div class="project flex-col gap-26 mb-100">
-            <img src="/assets/Img-1.png" alt="" />
+            <img class="cursor-pointer w-full" src="/assets/Img-1.png" alt="" />
             <div class="project-desc">
               <h3>Brand Journey Improvements</h3>
             </div>
           </div>
           <div class="project flex-col gap-26 mb-100">
-            <img src="/assets/Img-2.png" alt="" />
+            <img class="cursor-pointer w-full" src="/assets/Img-2.png" alt="" />
             <div class="project-desc">
               <h3>Brand Grouping</h3>
             </div>
           </div>
           <div class="project flex-col gap-26 mb-100">
-            <img src="/assets/Img-3.png" alt="" />
+            <img class="cursor-pointer w-full" src="/assets/Img-3.png" alt="" />
             <div class="project-desc">
               <h3>NFT Glimps</h3>
             </div>
           </div>
           <div class="project flex-col gap-26 mb-100">
-            <img src="/assets/Img-4.png" alt="" />
+            <img class="cursor-pointer w-full" src="/assets/Img-4.png" alt="" />
             <div class="project-desc">
               <h3>Brand Suggestions</h3>
             </div>
@@ -99,7 +108,7 @@
 
       <!-- ================ Testimonial Section ================ -->
       <section class="testimonial flex-row justify-between mb-200">
-        <div class="testimonial flex-col gap-26">
+        <div class="testimonial-container flex-col gap-60 align-center">
           <h2 class="testimonial-header">Testimonial</h2>
           <p class="testimonial-txt">
             “Aaronn was fantastic to work with from start to finish. We were
@@ -116,27 +125,29 @@
         </div>
         <div class=""><img src="/assets/“.svg" alt="" /></div>
       </section>
+    </div>
 
-      <!-- ================ Footer Section ================ -->
-      <footer class="footer flex-col gap-26 align-center">
-        <p class="orange-txt">Get in Touch With Us</p>
-        <p class="email mb-100">info@aaronn.com</p>
-        <div class="contact flex-row gap-100 justify-between w-full">
-          <img class="brand-logo-footer" src="/assets/Brand-logo.svg" alt="" />
-          <div class="address">
-            <p>Street Avenue 21, CA</p>
-            <p>0-8-00-888-000</p>
-          </div>
-          <div class="soc-media flex-col gap-12">
-            <p>+9 0283353</p>
-            <div>
-              <img src="/assets/Vector (1).svg" alt="" />
-              <img src="/assets/Vector (2).svg" alt="" />
-              <img src="/assets/Vector.svg" alt="" />
-            </div>
+    <!-- ================ Footer Section ================ -->
+    <footer class="footer flex-col gap-26 align-center">
+      <p class="orange-txt">Get in Touch With Us</p>
+      <p class="email mb-100">info@aaronn.com</p>
+      <div class="contact flex-row gap-100 justify-around w-full mb-50">
+        <img class="brand-logo-footer" src="/assets/Brand-logo.svg" alt="" />
+        <div class="address">
+          <p>Street Avenue 21, CA</p>
+          <p>0-8-00-888-000</p>
+        </div>
+        <div class="soc-media flex-col gap-12">
+          <p>+9 0283353</p>
+          <div>
+            <img class="cursor-pointer" src="/assets/Vector (1).svg" alt="" />
+            <img class="cursor-pointer" src="/assets/Vector (2).svg" alt="" />
+            <img class="cursor-pointer" src="/assets/Vector.svg" alt="" />
           </div>
         </div>
-      </footer>
-    </div>
+      </div>
+      <div class="line"></div>
+      <p class="copyright-txt">© 2023. Ideapeel. All rights reserved.</p>
+    </footer>
   </body>
 </html>
