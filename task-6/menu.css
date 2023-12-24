@@ -1,5 +1,3 @@
-/* MENU PAGE CSS */
-
 /* Animation only for menu button on menu page nav bar */
 .hover-underline-animation-menu {
   position: relative;
@@ -25,7 +23,7 @@
   }
 }
 
-/* MAIN SECTION */
+/* ======================== Start Main Section ======================== */
 .header-container {
   width: 80rem;
   width: 100%;
@@ -85,7 +83,7 @@
   width: 59%;
 }
 
-/* COFFEE PRODUCTS */
+/* ======================== Start Coffee Products Part ======================== */
 
 .product-item {
   border: 1px solid #c1b6ad;
@@ -123,3 +121,5 @@
   width: 60px;
   height: 60px;
 }
+/* ======================== End Coffee Products Part ======================== */
+/* ======================== End Main Section ======================== */

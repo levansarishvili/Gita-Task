@@ -10,20 +10,16 @@
     align-items: center;
     gap: 4rem;
   }
-
   .img-box-home {
     max-width: 68.8rem;
   }
-
   .img-2,
   .img-3 {
     display: none;
   }
-
   .img-item {
     transform: scale(1.06);
   }
-
   .col-1 {
     gap: 0;
   }
@@ -37,7 +33,7 @@
   }
 }
 
-/* <1280px screen size */
+/* <=1280px screen size */
 @media (max-width: 1280px) {
   /* Home Page */
   .mobile-app {
@@ -50,7 +46,7 @@
   }
 }
 
-/* <944px screen size */
+/* <=944px screen size */
 @media (max-width: 944px) {
   /* Home Page */
   .hero {
@@ -70,17 +66,21 @@
   }
 }
 
-/* <864px screen size */
+/* <=864px screen size */
 @media (max-width: 864px) {
   .footer-offer {
     width: 56.8rem;
   }
 }
 
-/* <768px screen size */
+/* <=768px screen size */
 @media (max-width: 768px) {
   /* Home Page */
-
+  .main-btn-img {
+    transform: scale(1);
+    width: 20px;
+    height: 20px;
+  }
   .buttons {
     flex-direction: column;
   }
@@ -116,7 +116,7 @@
   }
 }
 
-/* <736px screen size */
+/* <=736px screen size */
 @media (max-width: 736px) {
   /* Menu Page */
   .arrow-btn-box {
@@ -135,7 +135,7 @@
   }
 }
 
-/* <660px screen size */
+/* <=660px screen size */
 @media (max-width: 660px) {
   /* Home Page */
   .hero {
@@ -151,7 +151,7 @@
   }
 }
 
-/* <544px size */
+/* <=544px size */
 @media (max-width: 544px) {
   /* Home Page */
   .container {
@@ -168,7 +168,7 @@
 }
 
 /* <380px screen size */
-@media (max-width: 380px) {
+@media (max-width: 379px) {
   /* Home Page */
   .phone-img {
     width: 100%;
