@@ -37,7 +37,7 @@ if (salary < 2000) {
 let num = [15, 53, 22, 198, 10, 28, 16, 70, 33, 951];
 
 for (let i = 0; i < num.length; i++) {
-  if (num[i] % 2 === 0) {
+  if (num[i] % 2 !== 0) {
     console.log(num[i]);
   }
 }
